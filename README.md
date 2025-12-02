@@ -1,4 +1,4 @@
-# Book Club Landing Page 
+# Book Club Page 
 
 ## Project Overview
 A responsive landing page for a book club platform where readers can discover new books, share recommendations, and join a community of book lovers. Features a cozy bookstore aesthetic with smooth interactions and user-friendly design.
