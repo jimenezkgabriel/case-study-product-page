@@ -155,6 +155,28 @@ transform: scale(1.5);
     letter-spacing: 0.5px;
 }
 
+#loginButton:hover {
+    background: linear-gradient(135deg, #c49a6c 0%, #b8895f 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#carousel-btn {
+    background: linear-gradient(135deg, #d4a574 0%, #c49a6c 100%);
+    color: #3d2817;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#carousel-btn:hover {
+    background: linear-gradient(135deg, #e8b887 0%, #d4a574 100%);
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
 /* CTA section ayyyyye */
 .cta-section {
     background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
@@ -211,6 +233,7 @@ cta-section::before {
     background: linear-gradient(135deg, #e8b887 0%, #d4a574 100%);
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
 }
 
 .cta-button:active {
@@ -220,11 +243,11 @@ cta-section::before {
 .card:hover {
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .card {
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .signup-section {
