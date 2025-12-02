@@ -1,83 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="script.js" defer></script>
+<link rel="stylesheet" href="style.css">
         <title>Product Page</title>
 </head>
 <body>
-    <!--nav baaaaar-->
-    <nav class="navbar">
-        <div class="container">
-            <div class="appname"></div>
-            <h2>Books & idk</h2>
-        </div>
-        <!--fake lil links-->
-        <ul class="nav-links">
-            <li><a href="#about" class="nav-link"> About Us</a></li>
-            <li><a href="contact" class="nav-link"> Contact Us</a></li>
-            <li><a href="signup" class="nav-link"> Sign Up</a></li>
-        </ul>
-        <!--hambuuuurgerr for mobilllle-->
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
-    <section class="carousel">
-        <div class="container">
-            <h2>
-                <!--for gaaaabe, whatever u wanna put-->
-            </h2>
-            <div class="carousel-container">
-                <div class="carousel-track">
-                    <!--ayyye first book card for carousel-->
-                    <div class="book-card">
-                        <div class="book-cover">
-                            <img src="" alt="Book Cover">
-                            <!--kamryn will css this oooout-->
-                        </div>
-                        <div class="book-info">
-                            <h3>Book Title</h3>
-                            <p>Some short summary</p>
-                        </div>
-                        <!--book card 2-->
-                        <div class="book-card">
-                        <div class="book-cover">
-                            <img src="" alt="Book Cover">
-                        </div>
-                        <div class="book-info">
-                            <h3>Book Title</h3>
-                            <p>Same short summary</p>
-                        </div>
-                    </div>
-
-                    <!-- book card 3 -->
-                    <div class="book-card">
-                        <div class="book-cover">
-                            <img src="" alt="Book Cover">
-                        </div>
-                        <div class="book-info">
-                            <h3>Book Title</h3>
-                            <p>Same short summary</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-btn prev">&#8678;</button>
-                <button class="carousel-btn next">&#8680;</button>
-            </div>
-            <!--for the random arrow to make users scroll down-->
-            <div class="scroll-indicator">
-                <span>&#8681;</span>
-            </div>
-        </div>
-    </section>
-
     <!--CTA Section-->
     <section class="cta-section" id="cta">
          <div class="container">
@@ -111,6 +41,38 @@
             </div>
         </div>
     </section>
-</body>
 
+
+    
+<section id = "topBar">
+    <ul>
+        <li id="b&n" class= "topContent" > <a href="https://www.barnesandnoble.com/">Barnes and Noble</a></li>
+        <li id="booksMillion" class= "topContent" > <a href="https://www.barnesandnoble.com/">Books-A-Million</a></li>
+        <li id="liberty" class="topContent" ><a href="https://www.barnesandnoble.com/">Liberty Books</a></li>
+    </ul>
+</section>
+
+
+<section id="bottomNav">
+
+<a href="#" class="bookPic">
+<img id="leftBook" src="https://cdn-icons-png.flaticon.com/512/171/171322.png">
+<span id="booksIcon">Books.com</span></h2>
+</a>
+
+
+<input id="search" type="text" placeholder="Search For Your Favorite Book">
+<ul class="mainNavLinks">
+    <li id="contact"> <a href="https://www.barnesandnoble.com/"> Contact</a> </li>
+    <li id="about"> <a href="https://www.barnesandnoble.com/"> About Us</a> </li>
+    <li id="login"> <a href="https://www.barnesandnoble.com/"> <button id="loginButton" type="button"> LOGIN </button></a> </li>
+</ul>
+
+</section>
+
+
+
+
+
+</body>
 </html>
