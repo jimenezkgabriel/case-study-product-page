@@ -1,4 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #ec801a 0%, #522702 100%);
+    line-height: 1.8;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 #topBar {
     display: flex;
@@ -71,3 +88,7 @@ background-color: #ffffff;
     display: flex;
     text-align: center;
 }
+
+
+
+
