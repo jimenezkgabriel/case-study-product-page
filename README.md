@@ -28,6 +28,7 @@ Mobile-responsive design
 - **CSS3** - Styling with gradients, animations, and flexbox
 - **JavaScript (Vanilla)** - Form handling and smooth scroll interactions
 - **Git & GitHub** - Version control and collaboration
+- **Bootstrap** - CSS framework with helpful components such as the carousel component
 
 ## Color Palette
 - Primary Browns: `#8b4513`, `#6b3410`, `#4a3728`
@@ -88,14 +89,15 @@ project-folder/
  3+ Git commits with branches  
 
 ## Stretch Goals Completed
- Animated button hovers with smooth transitions  
- Form validation with user feedback  
-Cozy aesthetic design system  
+Animated button hovers with smooth transitions  
+Form validation with user feedback  
+Cozy aesthetic design system
+-# Modal feature planned
 
 ## Credits
 - Font: Georgia (system font)
 - Icons: Flaticon for book icon
-- Manhattan Project website inspooooo
+- Manhattan Associates website inspooooo
 
 ## License
 This project was created for educational purposes.
