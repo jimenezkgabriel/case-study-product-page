@@ -1,5 +1,3 @@
-
-
 #topBar {
     display: flex;
     justify-content: flex-end;
@@ -8,11 +6,13 @@
     padding: 10px;
 
 }
+
 #topBar ul {
     display: flex;
     gap: 30px;
     list-style: none;
 }
+
 #topBar a:hover {
     color: rgb(189, 189, 189);
 }
