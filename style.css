@@ -1,5 +1,3 @@
-
-
 #topBar {
     display: flex;
     justify-content: flex-end;
@@ -34,12 +32,22 @@
     font-size: 25px;
     font-weight: 700;
     color: #ffffff;
+    padding: 10px;
+    gap: 10px;
+
+
+
+}
+
+#bottomNav a {
+color: #ffffff;
 }
 
 #leftBook {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
+width: 32px;
+height: 32px;
+object-fit: contain;
+padding: 20px;
 }
 
 .mainNavLinks {
@@ -54,7 +62,7 @@
 }
 
 .mainNavLinks a:hover {
-    color: #ffffff;
+color: #ffffff;
 }
 
 #loginButton {
@@ -62,12 +70,43 @@ background-color: #ffffff;
 }
 
 #loginButton a:hover {
-    background-color: #ffffff;
-    transform: scale(1.5);
+background-color: #ffffff;
+transform: scale(1.5);
 }
 
 #search {
     width: 250px;
     display: flex;
     text-align: center;
+}
+
+/*THESE NEXT 3 BLOCKS PROVIDE UNDERLINE STYLES TO LINKS REFRENCED FROM GOOGLE.COM*/
+.underline-hover a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.underline-hover a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+}
+
+.underline-hover a:hover::after {
+  transform: scaleX(1);
+}
+ #booksIcon {
+    font-size: 50px;
+ }
+
+.underline-hover a:hover::after {
+  transform: scaleX(1);
 }
