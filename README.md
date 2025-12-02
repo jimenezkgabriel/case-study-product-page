@@ -92,7 +92,7 @@ project-folder/
 Animated button hovers with smooth transitions  
 Form validation with user feedback  
 Cozy aesthetic design system
--# Modal feature planned
+(Modal feature planned)
 
 ## Credits
 - Font: Georgia (system font)
