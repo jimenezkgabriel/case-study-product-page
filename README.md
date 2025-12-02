@@ -91,7 +91,7 @@ project-folder/
 ## Stretch Goals Completed
 Animated button hovers with smooth transitions  
 Form validation with user feedback  
-Cozy aesthetic design system
+Cozy aesthetic design system   
 (Modal feature planned)
 
 ## Credits
