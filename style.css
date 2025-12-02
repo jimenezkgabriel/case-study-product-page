@@ -6,7 +6,7 @@
 
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(135deg, #ec801a 0%, #522702 100%);
+    background: linear-gradient(135deg, #f5e6d3 0%, #eccaab 100%);
     line-height: 1.8;
     min-height: 100vh;
 }
@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(28, 29, 33);
+    background-color: rgb(71, 39, 8);
     padding: 15px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 
@@ -55,9 +55,6 @@ body {
     color: #ffffff;
     padding: 10px;
     gap: 10px;
-
-
-
 }
 
 #bottomNav a {
@@ -86,12 +83,9 @@ padding: 20px;
 color: #ffffff;
 }
 
-#loginButton {
-background-color: #ffffff;
-}
 
 #loginButton a:hover {
-background-color: #ffffff;
+background-color: #ffa826;
 transform: scale(1.5);
 }
 
@@ -99,6 +93,16 @@ transform: scale(1.5);
     width: 250px;
     display: flex;
     text-align: center;
+    border-radius: 25px;
+    background: #fff9f0;
+    font-size: 15px;
+    width: 350px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#search:focus {
+    outline: none;
+    border-color: #c49a6c;
 }
 
 /*THESE NEXT 3 BLOCKS PROVIDE UNDERLINE STYLES TO LINKS REFRENCED FROM GOOGLE.COM*/
@@ -131,3 +135,41 @@ transform: scale(1.5);
 .underline-hover a:hover::after {
   transform: scaleX(1);
 }
+
+/* login button */
+#loginButton {
+    background: linear-gradient(135deg, #d4a574 0%, #c49a6c 100%);
+    color: #3d2817;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Georgia', serif;
+    letter-spacing: 0.5px;
+}
+
+/* CTA section ayyyyye */
+.cta-section {
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="50%" font-size="40" text-anchor="middle" fill="rgba(245,230,211,0.1)"></text></svg>');
+    opacity: 0.3;
+    pointer-events: none;
+}
+
